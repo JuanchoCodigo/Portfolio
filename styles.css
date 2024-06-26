@@ -426,13 +426,6 @@ embed {
   height: 700px;
 }
 
-@media screen and (max-width: 768px) {
-  embed {
-    width: 96%;
-    height: 250px;
-  }
-}
-
 .Info-Doc {
   display: none;
 }
@@ -443,6 +436,10 @@ embed {
     margin: auto;
     font-size: 1em;
     padding-right: 80%;
+  }
+    
+  embed {
+    display: none;
   }
 }
 
