@@ -779,7 +779,24 @@ h2 {
   border-radius: 0 0 30px 30px;
 }
 
+.social-medias {
+  display: grid;
+  --min: 30ch;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--min)), 1fr));
+  width: 90%;
+  margin: 0 auto 5% auto;
+  background-color: #ffffff;
+  border-radius: 0 0 30px 30px;
+}
+
 .social-media div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0 50px 0;
+}
+
+.social-medias div {
   display: flex;
   justify-content: center;
   align-items: center;
