@@ -809,7 +809,7 @@ h2 {
 }
 
 .fa-solid {
-  font-size: 5em;
+  font-size: 3em;
 }
 
 .fa-linkedin:hover {
@@ -835,9 +835,9 @@ h2 {
 }
 
 .social-medias div p {
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin: 0;
-  padding-left: 21px;
+  padding-left: 12px;
 }
 
 /* Footer */
