@@ -791,6 +791,10 @@ h2 {
   color: #4285F4;
 }
 
+.fa-solid {
+  font-size: 5em;
+}
+
 .fa-linkedin:hover {
   color: #0077B5;
 }
@@ -811,6 +815,12 @@ h2 {
   font-size: 1.5em;
   margin: 0;
   padding-right: 21px;
+}
+
+.social-medias div p {
+  font-size: 1.5em;
+  margin: 0;
+  padding-left: 21px;
 }
 
 /* Footer */
