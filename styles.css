@@ -487,6 +487,17 @@ embed {
   justify-content: center;
 }
 
+.two-images {
+  display: grid;
+  gap: 20px;
+  --min: 100ch;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--min)), 5fr));
+  width: 100%;
+  padding: 1% 0 2% 0;
+  background-color: #ffffff;
+  border-radius: 0 0 30px 30px;
+}
+
 .website-bans {
   display: grid;
   gap: 15px;
@@ -856,3 +867,4 @@ footer div p a {
   text-decoration: none;
   color: #ffffff;
 }
+
