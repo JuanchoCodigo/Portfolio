@@ -488,8 +488,20 @@ embed {
 }
 
 .two-social img {
-  width: 21%;
+  width: 100%;
   padding-bottom: 3%;
+}
+
+.two-social {
+  display: grid;
+  gap: 15px;
+  --min: 50ch;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--min)), 5fr));
+  width: 100%;
+  margin: 0% auto 5% auto;
+  padding: 0 0 7% 0;
+  background-color: #ffffff;
+  border-radius: 0 0 30px 30px;
 }
 
 .website-bans {
@@ -861,6 +873,7 @@ footer div p a {
   text-decoration: none;
   color: #ffffff;
 }
+
 
 
 
